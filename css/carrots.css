@@ -66,8 +66,13 @@ h3 {
   }
 
 .jumbotron h1 {
+    font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 60px;
     font-weight:700;
+  }
+
+.kowidget {
+    font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 }
 
