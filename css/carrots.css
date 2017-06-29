@@ -44,29 +44,58 @@ h3 {
   border-color: #adadad;
 }
 
-.jumbotron {
-  height: 720px;
-  padding-top: 100px;
-  padding-right: 15%;
-  padding-left: 15%;
-  margin-bottom: 7%;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  text-align: center;
-  color: #534F8C;
-  background-image: url("../images/Background_02.png");
-  background-repeat: repeat-x;
-  background-position: center bottom;
-  background-color: #F6E1E1;
-}
+@media (min-width: 768px) {
+  .jumbotron {
+    height: 720px;
+    padding-top: 100px;
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-bottom: 7%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #534F8C;
+    background-image: url("../images/Background_02.png");
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    background-color: #F6E1E1;
+  }
 
-.jumbotron p {
-  font-size: 20px;
-}
+  .jumbotron p {
+    font-size: 20px;
+  }
 
 .jumbotron h1 {
-  font-size: 60px;
-  font-weight:700;
+    font-size: 60px;
+    font-weight:700;
+  }
+}
+
+@media (max-width: 768px) {
+  .jumbotron {
+    height: 720px;
+    padding-top: 100px;
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-bottom: 7%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #534F8C;
+    background-image: url("../images/Background_02.png");
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    background-color: #F6E1E1;
+  }
+
+  .jumbotron p {
+    font-size: 16px;
+  }
+
+.jumbotron h1 {
+    font-size: 30px;
+    font-weight:700;
+  }
 }
 
 .navbar {
