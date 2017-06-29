@@ -1,0 +1,117 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-weight: 700;
+  color: #534f8c;
+  font-size: 50px;
+  letter-spacing: -0.5px;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: #5a5a62;
+}
+
+.emoji {
+  font-size: 60px;
+  margin-bottom: -20px;
+}
+
+.btn {
+  color:#FFF;
+  background-color: #ff6410;
+  border:0px;
+  box-shadow: 0px 2px #e44c00;
+}
+
+.btn-primary:hover,
+.btn-primary.hover {
+  color: #fff;
+  background-color: #e44c00;
+  box-shadow: 0px 2px #ff6410;
+}
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
+.jumbotron {
+  height: 720px;
+  padding-top: 100px;
+  padding-right: 15%;
+  padding-left: 15%;
+  margin-bottom: 7%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #534F8C;
+  background-image: url("../images/Background_02.png");
+  background-repeat: repeat-x;
+  background-position: center bottom;
+  background-color: #F6E1E1;
+}
+
+.jumbotron p {
+  font-size: 20px;
+}
+
+.jumbotron h1 {
+  font-size: 60px;
+  font-weight:700;
+}
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 0px;
+  margin-top: -50px;
+  border: 0px solid transparent;
+}
+
+.navbar-nav.navbar-center {
+position: absolute;
+left: 50%;
+transform: translatex(-50%);
+}
+
+.navbar-header {
+  background-color: #F6E1E1;
+  border: 0px;
+}
+
+.navbar-fixed-top {
+  background-color: #F6E1E1;
+}
+
+.navbar-default {
+  background-color: #F6E1E1;
+}
+
+.navbar-fixed-top.scrolled {
+ background-color: #fff !important;
+ transition: background-color 200ms linear;
+}
+
+.row {
+  text-align: center;
+  font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.btn-primary {
+  font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.col-md-4 {
+
+}
