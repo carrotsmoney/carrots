@@ -25,6 +25,19 @@ footer p {
   line-height: 20px;
 }
 
+a {
+  font-weight: 700;
+  color: #534f8c;
+}
+
+a:hover {
+  color: #534f8c;
+}
+
+a:active {
+  color: #5a5a62;
+}
+
 .col-md-4 {
   padding-left: 40px;
   padding-right: 40px;
@@ -75,16 +88,16 @@ transform: translatex(-50%);
 }
 
 .navbar-header {
-  background-color: #F6E1E1;
+  background-color: #f6e1e1;
   border: 0px;
 }
 
 .navbar-fixed-top {
-  background-color: #F6E1E1;
+  background-color: #f6e1e1;
 }
 
 .navbar-default {
-  background-color: #F6E1E1;
+  background-color: #f6e1e1;
 }
 
 .navbar-fixed-top.scrolled {
@@ -118,7 +131,7 @@ transform: translatex(-50%);
     background-size: 1200px;
     background-repeat: repeat-x;
     background-position: center bottom;
-    background-color: #F6E1E1;
+    background-color: #f6e1e1;
   }
 
   .jumbotron p {
@@ -164,7 +177,7 @@ transform: translatex(-50%);
     background-size: 400px;
     background-repeat: repeat-x;
     background-position: center bottom;
-    background-color: #F6E1E1;
+    background-color: #f6e1e1;
   }
 
   .jumbotron p {
